@@ -7,7 +7,7 @@
     "start:dev": "webpack-dev-server",
     "build": "webpack"
   },
-  "keywords": ['webpack', 'webpack4', 'bundlers', 'tutorials' ],
+  "keywords": ["webpack", "webpack4", "bundlers", "tutorials" ],
   "author": "Julian Johannesen",
   "license": "ISC",
   "dependencies": {},
