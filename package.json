@@ -1,13 +1,13 @@
 {
-  "name": "webpack-test-4",
+  "name": "webpack-test-5",
   "version": "1.0.0",
-  "description": "",
+  "description": "Learn how to use Webpack in this series of increasingly complex tutorials",
   "main": "index.js",
   "scripts": {
     "start:dev": "webpack-dev-server",
     "build": "webpack"
   },
-  "keywords": [],
+  "keywords": ['webpack', 'webpack4', 'bundlers', 'tutorials' ],
   "author": "Julian Johannesen",
   "license": "ISC",
   "dependencies": {},
