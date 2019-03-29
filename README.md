@@ -66,9 +66,4 @@ module.exports = {
 }
 ```
 
-modules.rules is an array of rule objects that specify how webpack should process various files. In this case, it's telling webpack to use the html-loader loader to process html files. Plugins allow us to further extend webpack's capabilities. Here, whenever we build our project, the html-webpack-plugin will create a new HTML file in the dist directory. The new file will import all of our scripts (and down the road, all of our other assets as well). 
-
-What that means is that, when we want to switch back and forth between viewing the development and the production versions of our project, we no longer have to worry about editing our index.html file to change the file path to our bundled script. The dist directory will now contain its own index.html file. We can now open dist/index.html in our broswer and be assured that we're seeing the most recent production build.
-
-In addition, we can entirely remove the script tag from our index.html file. html-webpack-plugin will insert the script for us.
 
